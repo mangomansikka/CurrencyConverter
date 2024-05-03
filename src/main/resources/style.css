@@ -1,0 +1,71 @@
+.button {
+    -fx-background-color: #67bae8;
+    -fx-text-fill: #1e1e25;
+    -fx-padding: 10px;
+    -fx-border-radius: 4px;
+    -fx-border-color: #0a3348;
+    -fx-border-insets: 0 0 10px 20px;
+    -fx-background-insets: 0 0 10px 20px;
+    -fx-font-family: sans-serif;
+    -fx-font-size: 20px;
+}
+
+.button:hover {
+    -fx-background-color: #4783a4
+}
+
+#currencyLabel, #conversionLabel {
+    -fx-background-color: #a0d1ec;
+    -fx-text-fill: #1e1e25;
+    -fx-border-color: #0a3348;
+    -fx-border-radius: 4px;
+    -fx-border-insets: 0 0 10px 20px;
+    -fx-background-insets: 0 0 10px 20px;
+    -fx-padding: 5px;
+    -fx-alignment: center;
+    -fx-font-family: sans-serif;
+    -fx-font-size: 20px;
+}
+
+#conversionLabel {
+    -fx-border-insets: 10px 0 10px 20px;
+    -fx-background-insets: 10px 0 10px 20px;
+
+}
+
+.label {
+    -fx-font-family: sans-serif;
+}
+
+#textField {
+    -fx-border-insets: 0 0 10px 20px;
+    -fx-background-insets: 0 0 10px 20px;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+    -fx-font-family: sans-serif;
+    -fx-font-size: 20px;
+}
+
+.choice-box {
+    -fx-text-fill: #1e1e25;
+    -fx-border-radius: 4px;
+    -fx-border-insets: 0 0 10px 20px;
+    -fx-background-insets: 0 0 10px 20px;
+    -fx-background-color: #67bae8;
+    -fx-border-color: #0a3348;
+    -fx-font-family: sans-serif;
+    -fx-font-size: 20px;
+
+}
+
+#conversion {
+    -fx-border-insets: 0 0 10px 20px;
+    -fx-background-insets: 0 0 10px 20px;
+    -fx-border-radius: 4px;
+    -fx-padding: 10px;
+    -fx-background-color: #a0d1ec;
+    -fx-text-fill: #1e1e25;
+    -fx-alignment: center;
+    -fx-font-family: sans-serif;
+    -fx-font-size: 20px;
+}
