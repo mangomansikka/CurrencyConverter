@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b1286a8-1dea-485b-9ab3-a08f1f2f33a3" name="Changes" comment="">
+    <list default="true" id="3b1286a8-1dea-485b-9ab3-a08f1f2f33a3" name="Changes" comment="Adjustments">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/database/currency.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/database/retrieveDB.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/controller/CurrencyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/controller/CurrencyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/model/CurrencyModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/CurrencyModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/view/CurrencyView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/view/CurrencyView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,15 +41,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Database Script.currency.sql.executor": "Run",
+    "Database Script.retrieveDB.sql.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Asus/OneDrive/Työpöytä/Metropolia/Olio-ohjelmointi/OlioViikko6",
+    "last_opened_file_path": "C:/Users/Asus/OneDrive/Työpöytä/Metropolia/Olio-ohjelmointi/CurrencyConverter",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -60,8 +63,32 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "db2",
+      "mariadb"
+    ],
+    "RunConfigurationTargetLRU": [
+      "0cddb27f-5897-45a2-a68a-fdbef9e9eea1",
+      "fa13c4db-4b07-4c17-b001-13436aaea93c"
+    ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="currency.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/database/currency.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="fa13c4db-4b07-4c17-b001-13436aaea93c" />
+      <method v="2" />
+    </configuration>
+    <configuration name="retrieveDB.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/database/retrieveDB.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="fa13c4db-4b07-4c17-b001-13436aaea93c" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,11 +105,27 @@
       <option name="presentableId" value="Default" />
       <updated>1714652854707</updated>
       <workItem from="1714652855767" duration="9880000" />
-      <workItem from="1714717941632" duration="6528000" />
+      <workItem from="1714717941632" duration="7696000" />
+      <workItem from="1714769107633" duration="1192000" />
+      <workItem from="1714818782756" duration="2511000" />
+      <workItem from="1715456460471" duration="2951000" />
+      <workItem from="1715543210118" duration="3568000" />
     </task>
+    <task id="LOCAL−00001" summary="Adjustments">
+      <option name="closed" value="true" />
+      <created>1714724719782</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1714724719782</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adjustments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjustments" />
   </component>
 </project>
